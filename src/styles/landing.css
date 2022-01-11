@@ -7,4 +7,37 @@
     width: 100vw;
     height: 100vh;
 
+    background-image: url(../img/landing-wire-red.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.landing__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 40vh;
+    width: 50vw;
+
+    padding-bottom: 5%;
+
+    border-width: 8px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+            70deg,
+            red,
+            orange)
+            1;
+
+    background: rgba(0, 0, 0, 0.219);
+}   
