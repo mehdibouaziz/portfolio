@@ -7,13 +7,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 const PortfolioCard = (props) => {
-
+    const image = require(props.data.img);
     return (
         <Card sx={{ width: 320, height: 300, backgroundColor: '#091522'}}>
         <CardMedia
             component="img"
             height="140"
-            image={props.data.img}
+            image={image.default}
             alt="green iguana"
         />
         <CardContent>
