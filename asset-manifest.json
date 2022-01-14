@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b8333978.css",
-    "main.js": "/portfolio/static/js/main.3781a3d2.js",
+    "main.js": "/portfolio/static/js/main.b8bacdcc.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/landing-wire-red.png": "/portfolio/static/media/landing-wire-red.524da91301f7b46c98e8.png",
     "index.html": "/portfolio/index.html",
     "main.b8333978.css.map": "/portfolio/static/css/main.b8333978.css.map",
-    "main.3781a3d2.js.map": "/portfolio/static/js/main.3781a3d2.js.map",
+    "main.b8bacdcc.js.map": "/portfolio/static/js/main.b8bacdcc.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8333978.css",
-    "static/js/main.3781a3d2.js"
+    "static/js/main.b8bacdcc.js"
   ]
 }
