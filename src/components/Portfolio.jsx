@@ -14,17 +14,18 @@ const Portfolio = () => {
         border: 'solid 1px #4d7caa'
     };
 
+    /* put the image in src/img/portfolio */
     const projects = {
         pomodoro: {
             id: 'pomodoro',
             name: 'Pomodoro',
-            img: '../img/pomodoro.png',
+            img: 'pomodoro.png',
             txt: '25/5 pomodoro clock created using react'
         },
         calculator: {
             id: 'calculator',
             name: 'Calculator',
-            img: '../img/calculator.png',
+            img: 'calculator.png',
             txt: 'Calculator create for FreeCodeCamp curriculum'
         },
     }
