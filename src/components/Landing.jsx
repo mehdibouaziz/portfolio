@@ -1,11 +1,9 @@
 import React from 'react'
 import '../styles/landing.css';
 import { Typography } from '@mui/material';
-import { Transform } from '@mui/icons-material';
-import { lineHeight } from '@mui/system';
 
 
-function Landing() {
+const Landing = (props) => {
     return (
         <div className='landing__div'>
             <div className="landing__card">
@@ -29,7 +27,7 @@ function Landing() {
                     letterSpacing: '3px',
                     lineHeight: 1.5
                 }}>
-                    MEHDI BOUAZIZ
+                    {props.name}
                 </Typography>
 
                 <Typography variant="subtitle1" className='landing__name' sx={{
@@ -40,7 +38,7 @@ function Landing() {
                     letterSpacing: '-1px',
                     lineHeight: 1
                 }}>
-                    FRONT-END DEVELOPER
+                    {props.title}
                 </Typography>
                 
 

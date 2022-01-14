@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #011222;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.app__section-title{
+  color: white;
+  text-transform: uppercase;
+
+  font-size: 2em !important;
+
+  padding-bottom: 10px;
+
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-image: 
+        linear-gradient(70deg,red,orange)
+        1
+            ;
+}
