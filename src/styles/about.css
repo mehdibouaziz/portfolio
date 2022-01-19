@@ -11,6 +11,8 @@
     justify-content: flex-start;
 
     color: white;
+
+    scroll-margin-top: 100px;
 }
 
 .MuiSvgIcon-root{

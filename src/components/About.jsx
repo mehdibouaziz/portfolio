@@ -17,7 +17,7 @@ function About() {
 
 
     return (
-        <div className='about__div'>
+        <div className='about__div' id="about">
             <SectionTitle title="About Me" />
 
             <div className='flex-row' style={{
@@ -35,11 +35,11 @@ function About() {
                     textAlign: 'left',
                     alignItems: 'flex-start',
                     width: '55%',
-                    maxWidth: '600px',
+                    maxWidth: '650px',
                     gap: '5px'
                 }}>
                     <Typography variant="body1">
-                        Hi! I'm Mehdi, a Project Engineer mgr. learning to become a Front-End Developer.
+                        Hi! I'm Mehdi, a Mechanical Engineer mgr. specialised in Project Management learning to become a Front-End Developer.
                     </Typography>
                     <Typography variant="body1">
                         I have a passion for design and puzzles. This is why I love coding, and developping websites.
@@ -71,6 +71,7 @@ function About() {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
+
                 <Accordion sx={about__accordion}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
@@ -82,6 +83,21 @@ function About() {
                     <AccordionDetails>
                         <Typography>
                             HTML, CSS
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+
+                <Accordion sx={about__accordion}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography>Education</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography>
+                            Lorem Ipsum
                         </Typography>
                     </AccordionDetails>
                 </Accordion>

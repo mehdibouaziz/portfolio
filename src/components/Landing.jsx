@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 
 const Landing = (props) => {
     return (
-        <div className='landing__div'>
+        <div className='landing__div' id="landing">
             <div className="landing__card">
                 <Typography variant="subtitle1" className='landing__name' sx={{
                     textAlign: 'center',
@@ -39,6 +39,18 @@ const Landing = (props) => {
                     lineHeight: 1
                 }}>
                     {props.title}
+                </Typography>
+
+                <Typography variant="subtitle1" className='landing__name' sx={{
+                    textAlign: 'center',
+                    fontSize: '0.8em',
+                    color: 'white',
+                    fontWeight: 100,
+                    fontVariant: 'small-caps',
+                    letterSpacing: '2px',
+                    lineHeight: 4,
+                }}>
+                    SELF TAUGHT
                 </Typography>
                 
 

@@ -18,20 +18,28 @@ const Portfolio = () => {
     const projects = {
         pomodoro: {
             id: 'pomodoro',
-            name: 'Pomodoro',
             img: 'pomodoro.png',
-            txt: '25/5 pomodoro clock created using react'
+            alt: 'pomodoro app preview',
+            name: 'Pomodoro',
+            txt: '25/5 pomodoro clock created using react',
+            links: [
+                ['https://mehdibouaziz.github.io/pomodoro/','github-pages','fas fa-external-link-alt','Github Pages'],
+                ['https://github.com/mehdibouaziz/pomodoro','github','fab fa-github', 'Github repository']
+            ]
         },
         calculator: {
             id: 'calculator',
-            name: 'Calculator',
             img: 'calculator.png',
-            txt: 'Calculator create for FreeCodeCamp curriculum'
+            name: 'Calculator',
+            txt: 'Calculator created for FreeCodeCamp curriculum',
+            links: [
+                ['https://mehdibouaziz.github.io/react-calculator/','github-pages','fas fa-external-link-alt','Github Pages']
+            ]
         },
     }
 
     return (
-        <div className="portfolio__div">
+        <div className="portfolio__div" id="portfolio">
             <div>
             <SectionTitle title="Portfolio" />
             </div>
