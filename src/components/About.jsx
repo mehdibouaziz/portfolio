@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css';
-import { Typography, Avatar} from '@mui/material';
+import { Typography, Avatar, Box} from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -20,8 +20,9 @@ function About() {
         <div className='about__div' id="about">
             <SectionTitle title="About Me" />
 
-            <div className='flex-row' style={{
-                gap: '40px'
+            <Box className='flex-row' sx={{
+                gap: {xs:'20px', sm: '40px'},
+                flexDirection: {xs: 'column', sm:'row'},
             }}>
                 <Avatar
                     alt="Mehdi Bouaziz"
@@ -31,10 +32,10 @@ function About() {
                         width: '150px',
                     }}/>
 
-                <div className='flex-col' style={{
+                <Box className='flex-col' sx={{
                     textAlign: 'left',
                     alignItems: 'flex-start',
-                    width: '55%',
+                    width: {xs:'100%',sm:'60%'},
                     maxWidth: '650px',
                     gap: '5px'
                 }}>
@@ -50,10 +51,10 @@ function About() {
                     <Typography variant="body1">
                         When coding, I focus on delivering an enjoyable user experience, fully responsive, thanks to clean code and polished design.
                     </Typography>
-                </div>
-            </div>
+                </Box>
+            </Box>
 
-            <div style={{width: '80%', maxWidth:'700px', marginTop: '30px'}}>
+            <div style={{width: '100%', maxWidth:'700px', marginTop: '30px'}}>
                 <Accordion sx={about__accordion}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}

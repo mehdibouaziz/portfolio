@@ -38,8 +38,8 @@ body{
 
   padding-bottom: 10px;
 
-  border-width: 2px;
-  border-bottom-style: solid;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
   border-image: 
         linear-gradient(70deg,rgb(255,35,60),rgb(255, 166, 0))
         1
