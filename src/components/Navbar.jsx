@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppBar, Toolbar, Typography, Link } from '@mui/material'
+import { AppBar, Toolbar, Typography, Link, Box } from '@mui/material'
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -40,15 +40,21 @@ const Navbar = () => {
                         MB
                     </Typography>
                     
-                    <Link href="#landing" underline="none" color="inherit"><Button color="inherit">Home</Button></Link>
-                    <Link href="#about" underline="none" color="inherit"><Button color="inherit">About Me</Button></Link>
-                    <Link href="#portfolio" underline="none" color="inherit"><Button color="inherit">Portfolio</Button></Link>
-                    <Button color="inherit" sx={{
-                        marginRight: '10vw',
-                        border: 'solid 1px white',
-                        borderRadius: 0,
-                        }}>Contact</Button>
-
+                    <Box sx={{display: {xs: 'none', md: 'block'}}}>
+                        <Link href="#landing" underline="none" color="inherit"><Button color="inherit">Home</Button></Link>
+                        <Link href="#about" underline="none" color="inherit"><Button color="inherit">About Me</Button></Link>
+                        <Link href="#portfolio" underline="none" color="inherit"><Button color="inherit">Portfolio</Button></Link>
+                        <Link href="#contact" underline="none" color="inherit">
+                            <Button color="inherit" sx={{
+                                marginRight: '10vw',
+                                marginLeft: '5px',
+                                border: 'solid 1px white',
+                                borderRadius: 0,
+                                }}>Contact</Button></Link>
+                    </Box>
+                    <IconButton aria-label="menu" sx={{display: {xs: 'block', md: 'none'}, marginRight: '10vw',}}>
+                        <MenuIcon />
+                    </IconButton>
                     </Toolbar>
             </AppBar>
     )

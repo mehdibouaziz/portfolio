@@ -1,9 +1,10 @@
-.about__div{
+.contact__div{
 
     margin: 0 0 150px 0;
     padding: 0;
 
     width: 90%;
+    max-width: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -13,5 +14,8 @@
     color: white;
 
     scroll-margin-top: 100px;
+
 }
+
+
 

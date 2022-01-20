@@ -4,6 +4,7 @@
     padding: 0;
 
     width: 90%;
+    max-width: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -11,6 +12,8 @@
     justify-content: flex-start;
 
     color: white;
+
+    scroll-margin-top: 100px;
 }
 
 .portfolio__filters-div{
@@ -25,6 +28,7 @@
     justify-content: center;
 
     gap: 10px;
+    
 }
 
 .color-test{

@@ -35,8 +35,8 @@
     border-image: 
         linear-gradient(
             70deg,
-            red,
-            orange)
+            rgb(255,35,60),
+            rgb(255, 166, 0))
             1;
 
     background: rgba(0, 0, 0, 0.219);

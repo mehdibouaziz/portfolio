@@ -3,6 +3,7 @@ import './styles/components.css';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import About from './components/About';
+import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -12,6 +13,18 @@ function App() {
   const darkTheme = createTheme({
     palette: {
       mode: 'dark',
+      primary: {
+        main: 'rgb(255,166,0)',
+      },
+      linkedin: {
+        main: '#007cce',
+      },
+      github: {
+        main: '#0d151d',
+      },
+      fcc: {
+        main: '#000000',
+      },
     },
   });
   return (
@@ -24,6 +37,7 @@ function App() {
           />
         <About />
         <Portfolio />
+        <Contact />
       </ThemeProvider>
     </div>
   );

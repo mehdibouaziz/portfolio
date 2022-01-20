@@ -41,7 +41,7 @@ body{
   border-width: 2px;
   border-bottom-style: solid;
   border-image: 
-        linear-gradient(70deg,red,orange)
+        linear-gradient(70deg,rgb(255,35,60),rgb(255, 166, 0))
         1
             ;
 }
