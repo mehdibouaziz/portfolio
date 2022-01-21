@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f05c73d.css",
-    "main.js": "/portfolio/static/js/main.364850ac.js",
+    "main.css": "/portfolio/static/css/main.e9a53f8c.css",
+    "main.js": "/portfolio/static/js/main.6af90540.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/landing-wire-red.png": "/portfolio/static/media/landing-wire-red.524da91301f7b46c98e8.png",
     "static/media/pomodoro.png": "/portfolio/static/media/pomodoro.1aa16dadb62779c86163.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.f65e7ad1804ac9cb68e9.png",
     "index.html": "/portfolio/index.html",
-    "main.7f05c73d.css.map": "/portfolio/static/css/main.7f05c73d.css.map",
-    "main.364850ac.js.map": "/portfolio/static/js/main.364850ac.js.map",
+    "main.e9a53f8c.css.map": "/portfolio/static/css/main.e9a53f8c.css.map",
+    "main.6af90540.js.map": "/portfolio/static/js/main.6af90540.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f05c73d.css",
-    "static/js/main.364850ac.js"
+    "static/css/main.e9a53f8c.css",
+    "static/js/main.6af90540.js"
   ]
 }
