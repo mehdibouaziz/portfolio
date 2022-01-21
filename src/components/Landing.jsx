@@ -11,21 +11,22 @@ const Landing = (props) => {
                     textAlign: 'center',
                     fontSize: '0.8em',
                     color: 'white',
-                    fontWeight: 100,
+                    fontWeight: 300,
                     fontVariant: 'small-caps',
                     letterSpacing: '2px',
-                    lineHeight: 4,
+                    lineHeight: 2,
                 }}>
                     HELLO, I'M
                 </Typography>
 
                 <Typography variant="h1" className='landing__name' sx={{
                     textAlign: 'center',
-                    fontSize: '4em',
+                    fontSize: {xs:'5em', sm:'6em'},
                     color: 'white',
-                    fontWeight: 500,
-                    letterSpacing: '3px',
-                    lineHeight: 1.5
+                    fontWeight: 400,
+                    letterSpacing: {xs:'4px', sm:'-13px'},
+                    lineHeight: 1.2,
+                    fontFamily: "'Roboto', sans-serif",
                 }}>
                     {props.name}
                 </Typography>
@@ -34,7 +35,7 @@ const Landing = (props) => {
                     textAlign: 'center',
                     fontSize: '2em',
                     color: 'white',
-                    fontWeight: 200,
+                    fontWeight: 300,
                     letterSpacing: '-1px',
                     lineHeight: 1
                 }}>
@@ -45,10 +46,10 @@ const Landing = (props) => {
                     textAlign: 'center',
                     fontSize: '0.8em',
                     color: 'white',
-                    fontWeight: 100,
+                    fontWeight: 300,
                     fontVariant: 'small-caps',
                     letterSpacing: '2px',
-                    lineHeight: 4,
+                    lineHeight: 3,
                 }}>
                     SELF TAUGHT
                 </Typography>

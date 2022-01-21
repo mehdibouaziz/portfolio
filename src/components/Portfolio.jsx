@@ -8,11 +8,6 @@ import PortfolioCard from './PortfolioCard-mui';
 
 
 const Portfolio = () => {
-    const portfolio__toggle = {
-        backgroundColor: '#02213f',
-        color: 'white',
-        border: 'solid 1px #4d7caa'
-    };
 
     /* put the image in src/img/portfolio */
     const projects = {
@@ -36,6 +31,7 @@ const Portfolio = () => {
                 ['https://mehdibouaziz.github.io/react-calculator/','github-pages','fas fa-external-link-alt','Github Pages']
             ]
         },
+        
     }
 
     return (

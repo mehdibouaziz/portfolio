@@ -5,7 +5,8 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import { useTheme, ThemeProvider, createTheme } from '@mui/material/styles';
+import Footer from './components/Footer';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
+        <Footer />
       </ThemeProvider>
     </div>
   );
