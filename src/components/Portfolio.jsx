@@ -64,6 +64,7 @@ const Portfolio = () => {
             <div className='portfolio__card-container'>
                 <PortfolioCard data={projects.pomodoro}/>
                 <PortfolioCard data={projects.calculator}/>
+                <PortfolioCard data={projects.quoteMachine}/>
             </div>
         </div>
     )
