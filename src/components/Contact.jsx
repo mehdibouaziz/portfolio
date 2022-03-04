@@ -12,7 +12,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Contact = () => {
   return (
-    <div className="contact__div" id="contact">
+    <Box className="contact__div" id="contact" sx={{
+        margin: {xs:'0 0 10vh 0',sm:'0 0 25vh 0'}
+    }}>
       <SectionTitle title="Contact" />
 
       <Grid container rowSpacing={4} columnSpacing={6}>
@@ -117,7 +119,13 @@ const Contact = () => {
               <Button
                 variant="contained"
                 startIcon={<GitHubIcon />}
-                color="github"
+                sx={{
+                  backgroundColor: '#0d151d',
+                  color: 'white',
+                  '&:hover':{
+                    backgroundColor: '#161e25',
+                  },
+                }}
               >
                 Github
               </Button>
@@ -133,7 +141,13 @@ const Contact = () => {
               <Button
                 variant="contained"
                 startIcon={<LinkedInIcon />}
-                color="linkedin"
+                sx={{
+                  backgroundColor: '#007cce',
+                  color: 'white',
+                  '&:hover':{
+                    backgroundColor: '#3c95d1',
+                  },
+                }}
               >
                 LinkedIn
               </Button>
@@ -149,7 +163,13 @@ const Contact = () => {
               <Button
                 variant="contained"
                 startIcon={<i className="fab fa-free-code-camp"></i>}
-                color="fcc"
+                sx={{
+                  backgroundColor: '#000000',
+                  color: 'white',
+                  '&:hover':{
+                    backgroundColor: '#111111',
+                  },
+                }}
               >
                 FreeCodeCamp
               </Button>
@@ -157,7 +177,7 @@ const Contact = () => {
           </Box>
         </Grid>
       </Grid>
-    </div>
+    </Box>
   );
 };
 

@@ -11,7 +11,7 @@ const Links = (props) => {
     return (
         <Link target="_blank" href={props.url} rel="noreferrer" title={props.title} underline="none">
             <IconButton aria-label={props.aria} size="">
-                <i class={props.icon +" fa-sm"}></i>
+                <i className={props.icon +" fa-sm"}></i>
             </IconButton>
         </Link>
     )

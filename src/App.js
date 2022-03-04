@@ -17,15 +17,6 @@ function App() {
       primary: {
         main: 'rgb(255,166,0)',
       },
-      linkedin: {
-        main: '#007cce',
-      },
-      github: {
-        main: '#0d151d',
-      },
-      fcc: {
-        main: '#000000',
-      },
     },
   });
   return (

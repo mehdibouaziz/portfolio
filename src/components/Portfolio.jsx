@@ -5,6 +5,7 @@ import '../styles/portfolio.css';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import PortfolioCard from './PortfolioCard-mui';
+import { Box } from '@mui/material';
 
 
 const Portfolio = () => {
@@ -28,10 +29,20 @@ const Portfolio = () => {
             name: 'Calculator',
             txt: 'Calculator created for FreeCodeCamp curriculum',
             links: [
-                ['https://mehdibouaziz.github.io/react-calculator/','github-pages','fas fa-external-link-alt','Github Pages']
+                ['https://mehdibouaziz.github.io/calculator-react/','github-pages','fas fa-external-link-alt','Github Pages'],
+                ['https://github.com/mehdibouaziz/calculator-react','github','fab fa-github', 'Github repository']
             ]
         },
-        
+        quoteMachine: {
+            id: 'quoteMachine',
+            img: 'quoteMachine.png',
+            name: 'Random Quote Machine',
+            txt: 'Random quote generator created for FreeCodeCamp curriculum',
+            links: [
+                ['https://mehdibouaziz.github.io/random-quote-machine/','github-pages','fas fa-external-link-alt','Github Pages'],
+                ['https://github.com/mehdibouaziz/random-quote-machine','github','fab fa-github', 'Github repository']
+            ]
+        },
     }
 
     return (
@@ -39,7 +50,7 @@ const Portfolio = () => {
             <div>
             <SectionTitle title="Portfolio" />
             </div>
-            <div className="portfolio__filters-div">
+            <Box className="portfolio__filters-div" sx={{display:'none'}}>
                 <ToggleButtonGroup>
                     <ToggleButton value="react" aria-label="react">
                         React
@@ -48,14 +59,10 @@ const Portfolio = () => {
                         jQuery
                     </ToggleButton>
                 </ToggleButtonGroup>
-            </div>
+            </Box>
 
             <div className='portfolio__card-container'>
                 <PortfolioCard data={projects.pomodoro}/>
-                <PortfolioCard data={projects.calculator}/>
-                <PortfolioCard data={projects.calculator}/>
-                <PortfolioCard data={projects.calculator}/>
-                <PortfolioCard data={projects.calculator}/>
                 <PortfolioCard data={projects.calculator}/>
             </div>
         </div>
