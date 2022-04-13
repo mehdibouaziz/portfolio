@@ -24,13 +24,13 @@ const PortfolioCard = (props) => {
     );
    
     return (
-        <Card sx={{
+        <Card key={'portfolio-card-' + props.data.id} sx={{
             width: 320,
-            height: 320,
+            height: 340,
             backgroundColor: '#091522',
             '&:hover': {
-                width: 330,
-                height: 330,
+                width: 325,
+                height: 345,
             },
             transition: 'width 0.5s, height 0.5s'
             }}>
@@ -41,7 +41,11 @@ const PortfolioCard = (props) => {
                 image={require("../img/portfolio/" + props.data.img)}
                 alt={props.data.alt}
             />
-            <CardContent>
+            <CardContent sx={{
+                height: '110px'
+            }}
+                
+            >
                 <Typography gutterBottom variant="h5" component="div">
                     {props.data.name}
                 </Typography>
@@ -49,7 +53,9 @@ const PortfolioCard = (props) => {
                     {props.data.txt}
                 </Typography>
             </CardContent>
-            <CardActions>
+            <CardActions sx={{
+                alignSelf: 'flex-end',
+            }}>
                 <Typography variant="body2" color="text.secondary" sx={{marginLeft: '5px', marginRight: '10px'}}>
                     See it on:
                 </Typography>

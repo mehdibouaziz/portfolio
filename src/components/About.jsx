@@ -50,16 +50,16 @@ function About() {
                     gap: '5px'
                 }}>
                     <Typography variant="body1">
-                        Hi! I'm Mehdi, a Mechanical Engineer mgr. specialised in Project Management learning to become a Front-End Developer.
+                        Hello! I'm Mehdi, a Mechanical Engineer mgr. specialised in Project Management, now learning to become a Front-End Developer.
                     </Typography>
                     <Typography variant="body1">
-                        I have a passion for design and puzzles. This is why I love coding, and developing websites.
+                        I am passionate about new technology, science, design, and puzzles. This is why I love coding and developing websites.
                     </Typography>
                     <Typography variant="body1">
-                        I completed the Front-End certifications on <Link href="https://www.freecodecamp.org/learn">freeCodeCamp</Link> and I am currently working towards the Data Visualisation and basic Back End and API certifications.
+                        I completed the Front-End certifications on <Link href="https://www.freecodecamp.org/learn">freeCodeCamp</Link> and I am currently working on applying my knowledge to create apps and learning about new libraries.
                     </Typography>
                     <Typography variant="body1">
-                        When coding, I focus on delivering an polished user experience, fully responsive, thanks to clean code and design.
+                        When coding, I focus on delivering a polished user experience thanks to clean code and responsive design.
                     </Typography>
                 </Box>
             </Box>
@@ -86,7 +86,7 @@ function About() {
                             </Grid>
                             <Grid item xs={9}>
                                 <Typography variant="body1" sx={sx_accordionTypo}>
-                                    ES6  |  FreeCodeCamp certificates: Responsive Web Design + Javascript Algorithms and Data Structures
+                                    ES6  |  FreeCodeCamp certificates: Responsive Web Design, Javascript Algorithms and Data Structures, Front End Development Libraries
                                 </Typography>
                             </Grid>
 
@@ -146,16 +146,16 @@ function About() {
                         </Typography>
                         <Typography variant="body2" sx={sx_bullets}>
                             - Managed the project planning of 5-20 people teams<br />
-                            - Supervised the workload of the department (100 people) in coordination with headquarters and collaborating sites<br />
+                            - Supervised the workload of the department (100+ people) in coordination with headquarters and collaborating sites<br />
                             - Implemented the department's KPI dashboard and regular performance reviews<br />
-                            - Developped and improved Excel and VBA tools for the team's management
+                            - Developed, improved, and maintained Excel and VBA tools for the team's management
                         </Typography>
                         <Typography variant="h6" sx={{fontSize:'1em'}}>
                             Project Planning Engineer - Aptiskills (Lyon/Paris FR) - 9 months
                         </Typography>
                         <Typography variant="body2" sx={{...sx_bullets, marginBottom:'20px'}}>
                             - Established and supervised the schedule of a 15M€ / 18-months long project<br />
-                            - Developped an issue tracking system with Excel VBA to monitor the project's completion and generate reports for the client<br />
+                            - Developed an issue tracking system with Excel VBA to monitor the project's completion and generate reports for the client<br />
                             - Supervised the day-to-day progress of the construction teams and 4 subcontractors on site
                         </Typography>
 
