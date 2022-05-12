@@ -84,9 +84,13 @@ const Contact = () => {
                     backgroundImage:
                       "linear-gradient(70deg,rgb(255,35,60),rgb(255,166,0))",
                     color: "#011222",
+                    opacity: 1,
+                    transition: 'color 0s',
                     "&:hover": {
-                      backgroundImage:
-                        "linear-gradient(70deg,rgb(160,20,37),rgb(194,126,1))",
+                      color: 'white',
+                      opacity: 0.8,
+                      // backgroundImage:
+                      //   "linear-gradient(70deg,rgb(160,20,37),rgb(194,126,1))",
                     },
                   }}
                 >

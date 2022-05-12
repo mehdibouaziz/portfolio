@@ -13,6 +13,17 @@ const Portfolio = () => {
     /* put the image in src/img/portfolio */
     const projects = {
         wordle: {
+            id: 'recipeApp',
+            img: 'recipeapp.png',
+            alt: 'recipe app preview',
+            name: 'Recipe App',
+            txt: 'Recipe catalog created using React for my own use. With search engine and dark/light modes. WIP: JSON generator to add new recipes to the catalog',
+            links: [
+                ['https://mehdibouaziz.github.io/recipe-app/','github-pages','fas fa-external-link-alt','Github Pages'],
+                ['https://github.com/mehdibouaziz/recipe-app','github','fab fa-github', 'Github repository']
+            ]
+        },
+        wordle: {
             id: 'wordle',
             img: 'wordle.png',
             alt: 'wordle app preview',
@@ -77,9 +88,6 @@ const Portfolio = () => {
 
             <div className='portfolio__card-container'>
                 {portfolioCards}
-                {/* <PortfolioCard data={projects.pomodoro}/>
-                <PortfolioCard data={projects.calculator}/>
-                <PortfolioCard data={projects.quoteMachine}/> */}
             </div>
         </div>
     )
