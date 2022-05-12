@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0fb0de3d.css",
-    "main.js": "/portfolio/static/js/main.9a7d6874.js",
+    "main.js": "/portfolio/static/js/main.59ab86c7.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/landing-wire-red.png": "/portfolio/static/media/landing-wire-red.ec3938791d6d24ab857e.png",
-    "static/media/recipeapp.png": "/portfolio/static/media/recipeapp.d02dc922893421a4cdab.png",
+    "static/media/recipeapp.png": "/portfolio/static/media/recipeapp.4e70f9159bed2f40693f.png",
     "static/media/quoteMachine.png": "/portfolio/static/media/quoteMachine.80253d55e46c10a0bcaa.png",
     "static/media/wordle.png": "/portfolio/static/media/wordle.5ae3dfdd5dccd63b8a5d.png",
     "static/media/pomodoro.png": "/portfolio/static/media/pomodoro.1aa16dadb62779c86163.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.4e1c4dc80c018faf4868.png",
     "index.html": "/portfolio/index.html",
     "main.0fb0de3d.css.map": "/portfolio/static/css/main.0fb0de3d.css.map",
-    "main.9a7d6874.js.map": "/portfolio/static/js/main.9a7d6874.js.map",
+    "main.59ab86c7.js.map": "/portfolio/static/js/main.59ab86c7.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb0de3d.css",
-    "static/js/main.9a7d6874.js"
+    "static/js/main.59ab86c7.js"
   ]
 }
