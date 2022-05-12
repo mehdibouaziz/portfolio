@@ -6,12 +6,17 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
+import { CardActionArea } from '@mui/material';
+
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Links = (props) => {
     return (
-        <Link target="_blank" href={props.url} rel="noreferrer" title={props.title} underline="none">
-            <IconButton aria-label={props.aria} size="">
-                <i className={props.icon +" fa-sm"}></i>
+        <Link target="_blank" href={props.url} rel="noreferrer" title={props.title} underline="none" >
+            <IconButton aria-label={props.aria} sx={{padding: '6px'}}>
+                {props.icon === 'external' && (<OpenInNewIcon />)}
+                {props.icon === 'github' && (<GitHubIcon />)}
             </IconButton>
         </Link>
     )
@@ -35,6 +40,7 @@ const PortfolioCard = (props) => {
             transition: 'width 0.5s, height 0.5s'
             }}>
 
+        <CardActionArea href={props.data.links[0][0]} target="_blank" rel="noreferrer">
             <CardMedia
                 component="img"
                 height="140"
@@ -53,6 +59,8 @@ const PortfolioCard = (props) => {
                     {props.data.txt}
                 </Typography>
             </CardContent>
+        </CardActionArea>
+
             <CardActions sx={{
                 alignSelf: 'flex-end',
             }}>
