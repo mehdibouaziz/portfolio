@@ -123,7 +123,7 @@ const Contact = () => {
                   backgroundColor: '#0d151d',
                   color: 'white',
                   '&:hover':{
-                    backgroundColor: '#161e25',
+                    backgroundColor: '#203447',
                   },
                 }}
               >
@@ -145,7 +145,7 @@ const Contact = () => {
                   backgroundColor: '#007cce',
                   color: 'white',
                   '&:hover':{
-                    backgroundColor: '#3c95d1',
+                    backgroundColor: '#33adff',
                   },
                 }}
               >
@@ -164,14 +164,36 @@ const Contact = () => {
                 variant="contained"
                 startIcon={<i className="fab fa-free-code-camp"></i>}
                 sx={{
-                  backgroundColor: '#000000',
+                  backgroundColor: '#000',
                   color: 'white',
                   '&:hover':{
-                    backgroundColor: '#111111',
+                    backgroundColor: '#222',
                   },
                 }}
               >
                 FreeCodeCamp
+              </Button>
+            </Link>
+            <Link
+              target="_blank"
+              href="https://mehdibouaziz.github.io/resume/"
+              rel="noreferrer"
+              title="my resume"
+              underline="none"
+              color="inherit"
+            >
+              <Button
+                variant="contained"
+                startIcon={<i className="fa-solid fa-file-lines"></i>}
+                sx={{
+                  backgroundColor: '#067225',
+                  color: 'white',
+                  '&:hover':{
+                    backgroundColor: '#089c33',
+                  },
+                }}
+              >
+                See my Resume
               </Button>
             </Link>
           </Box>

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css';
-import { Typography, Avatar, Box, Link} from '@mui/material';
+import { Typography, Avatar, Box, Link, Button} from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -53,7 +53,7 @@ function About() {
                         Hello! I'm Mehdi, a Mechanical Engineer mgr. specialised in Project Management, now learning to become a Front-End Developer.
                     </Typography>
                     <Typography variant="body1">
-                        I am passionate about new technology, science, design, and puzzles. This is why I love coding and developing websites.
+                        I am passionate about new technologies, science, design, and puzzles. This is why I love coding and developing websites!
                     </Typography>
                     <Typography variant="body1">
                         I completed the Front-End certifications on <Link href="https://www.freecodecamp.org/learn">freeCodeCamp</Link> and I am currently working on applying my knowledge to create apps and learning about new libraries.
@@ -194,6 +194,36 @@ function About() {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
+
+            <Box className='flex-row' sx={{
+                marginTop: '20px',
+                
+            }}>
+                <Link
+                target="_blank"
+                href="https://mehdibouaziz.github.io/resume/"
+                rel="noreferrer"
+                title="my resume"
+                underline="none"
+                color="inherit"
+                >
+                    <Button
+                        variant="contained"
+                        startIcon={<i className="fa-solid fa-file-lines"></i>}
+                        sx={{
+                        padding: '8px 25px',
+                        backgroundColor: '#067225',
+                        color: 'white',
+                        '&:hover':{
+                            backgroundColor: '#089c33',
+                        },
+                        }}
+                    >
+                    See my Resume
+                    </Button>
+                </Link>
+            </Box>
+
             </div>
         </div>
     )
