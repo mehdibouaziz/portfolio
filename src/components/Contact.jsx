@@ -158,7 +158,7 @@ const Contact = () => {
             </Link>
             <Link
               target="_blank"
-              href="https://www.freecodecamp.org/alb4t4r"
+              href="https://www.freecodecamp.org/MehdiBouaziz"
               rel="noreferrer"
               title="freecodecamp profile"
               underline="none"
