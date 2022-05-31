@@ -24,6 +24,17 @@ const Portfolio = () => {
                 ['https://github.com/mehdibouaziz/recipe-app','github','github', 'Github repository']
             ]
         },
+        plantsapp: {
+            id: 'plantsApp',
+            img: 'plantsapp.png',
+            alt: 'plants care app preview',
+            name: 'Plants Care App',
+            txt: 'House plant catalog and care tips app created by cloning my Recipe App and reusing its components.',
+            links: [
+                ['https://mehdibouaziz.github.io/plants-app/','github-pages','external','Github Pages'],
+                ['https://github.com/mehdibouaziz/plants-app','github','github', 'Github repository']
+            ]
+        },
         wordle: {
             id: 'wordle',
             img: 'wordle.png',
