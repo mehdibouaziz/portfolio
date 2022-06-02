@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0fb0de3d.css",
-    "main.js": "/portfolio/static/js/main.50a11268.js",
+    "main.js": "/portfolio/static/js/main.dec2046f.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/landing-wire-red.png": "/portfolio/static/media/landing-wire-red.ec3938791d6d24ab857e.png",
     "static/media/plantsapp.png": "/portfolio/static/media/plantsapp.06ff1d0629433cd972f4.png",
@@ -12,11 +12,11 @@
     "static/media/calculator.png": "/portfolio/static/media/calculator.4e1c4dc80c018faf4868.png",
     "index.html": "/portfolio/index.html",
     "main.0fb0de3d.css.map": "/portfolio/static/css/main.0fb0de3d.css.map",
-    "main.50a11268.js.map": "/portfolio/static/js/main.50a11268.js.map",
+    "main.dec2046f.js.map": "/portfolio/static/js/main.dec2046f.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb0de3d.css",
-    "static/js/main.50a11268.js"
+    "static/js/main.dec2046f.js"
   ]
 }
