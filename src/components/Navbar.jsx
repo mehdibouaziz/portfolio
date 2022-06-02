@@ -11,7 +11,7 @@ import {
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import Brand from "../img/brand-red.png";
+import Brand from "../img/MON-white.png";
 
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 
