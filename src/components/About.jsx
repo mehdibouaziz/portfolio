@@ -177,7 +177,7 @@ function About() {
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Knowledge of git, github, Unix (working on ubuntu 20.04 or
+                  Knowledge of git, github, Unix (working on ubuntu 22.04 or
                   MacOS), Netlify
                 </Typography>
               </Grid>
