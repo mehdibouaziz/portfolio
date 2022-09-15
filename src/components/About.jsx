@@ -24,7 +24,8 @@ import {
   SiApple,
   SiHtml5,
   SiCss3,
-  SiJavascript
+  SiJavascript,
+  SiTailwindcss
 } from "react-icons/si";
 
 function About() {
@@ -154,6 +155,7 @@ function About() {
 
               <Grid item xs={3} sx={sx_gridicons}>
                 <Typography variant="body1" sx={sx_accordionIcons}>
+                  <SiTailwindcss size="2em" style={sx_icons} />
                   <SiBootstrap size="2em" style={sx_icons} />
                   <SiSass size="2em" style={sx_icons} />
                   <SiJquery size="2em" style={sx_icons} />
@@ -162,7 +164,7 @@ function About() {
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Experience with: Bootstrap | Sass | jQuery | D3.js
+                  Experience with: Tailwind | Bootstrap | Sass | jQuery | D3.js
                 </Typography>
               </Grid>
 
