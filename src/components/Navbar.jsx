@@ -42,30 +42,45 @@ const Navbar = () => {
         backgroundImage: 'none'
       }}
     >
-      <Toolbar>
-        <img
-          src={Brand}
-          alt="Brand"
-          style={{
-            height: "25px",
-            marginLeft: "10vw",
-            marginRight: "20px",
-          }}
-        ></img>
+      <Toolbar sx={{
+        justifyContent: "space-between"
+      }}>
+        <Box sx={{
+          marginLeft: "10vw",
+        }}>
+          <Link href="#landing" underline="none" color="inherit" sx={{
+            display: "flex",
+            flexDirection: "flex-row",
+            alignItems: "center",
+            gap: "20px"
+          }}>
+            <img
+              src={Brand}
+              alt="Brand"
+              style={{
+                height: "25px",
+              }}
+            ></img>
+          
+            <Typography
+              variants="button"
+              component="div"
+              sx={{
+                textAlign: "left",
+                fontSize: "1.5em",
+              }}
+            >
+              MB
+            </Typography>
+          </Link>
+          
+        </Box>
+      
 
-        <Typography
-          variants="button"
-          component="div"
-          sx={{
-            flexGrow: 1,
-            textAlign: "left",
-            fontSize: "1.5em",
-          }}
-        >
-          MB
-        </Typography>
 
-        <Box sx={{ display: { xs: "none", sm: "block" } }}>
+        <Box sx={{
+            display: { xs: "none", sm: "block" },
+            }}>
           <Link href="#landing" underline="none" color="inherit">
             <Button color="inherit">Home</Button>
           </Link>
