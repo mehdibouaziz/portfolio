@@ -25,7 +25,9 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
-  SiTailwindcss
+  SiTailwindcss,
+  SiVercel,
+  SiTypescript
 } from "react-icons/si";
 
 function About() {
@@ -129,13 +131,14 @@ function About() {
                   <SiHtml5 size="2em" style={sx_icons} />
                   <SiCss3 size="2em" style={sx_icons} />
                   <SiJavascript size="2em" style={sx_icons} />
+                  <SiTypescript size="2em" style={sx_icons} />
                 </Typography>
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
                   ES6 | FreeCodeCamp certificates: Responsive Web Design,
-                  Javascript Algorithms and Data Structures, Front End
-                  Development Libraries
+                  Javascript Algorithms and Data Structures, Front End Libraries
+                  <br /> Fundamentals of TypeScript
                 </Typography>
               </Grid>
 
@@ -144,18 +147,19 @@ function About() {
                   <SiReact size="2em" style={sx_icons} />
                   <SiRedux size="2em" style={sx_icons} />
                   <SiReactrouter size="2em" style={sx_icons} />
-                  <SiMaterialui size="2em" style={sx_icons} />
+                  
                 </Typography>
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Modern React w/ Hooks | Redux | ReactRouter | MaterialUI
+                  Modern React w/ Hooks | Redux | ReactRouter | 
                 </Typography>
               </Grid>
 
               <Grid item xs={3} sx={sx_gridicons}>
                 <Typography variant="body1" sx={sx_accordionIcons}>
                   <SiTailwindcss size="2em" style={sx_icons} />
+                  <SiMaterialui size="2em" style={sx_icons} />
                   <SiBootstrap size="2em" style={sx_icons} />
                   <SiSass size="2em" style={sx_icons} />
                   <SiJquery size="2em" style={sx_icons} />
@@ -164,7 +168,7 @@ function About() {
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Experience with: Tailwind | Bootstrap | Sass | jQuery | D3.js
+                  Experience with: Tailwind | MaterialUI | Bootstrap | Sass | jQuery | D3.js
                 </Typography>
               </Grid>
 
@@ -175,12 +179,13 @@ function About() {
                   <SiUbuntu size="2em" style={sx_icons} />
                   <SiApple size="2em" style={sx_icons} />
                   <SiNetlify size="2em" style={sx_icons} />
+                  <SiVercel size="2em" style={sx_icons} />
                 </Typography>
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
                   Knowledge of git, github, Unix (working on ubuntu 22.04 or
-                  MacOS), Netlify
+                  MacOS), deployments on Netlify & Vercel
                 </Typography>
               </Grid>
             </Grid>
@@ -196,6 +201,13 @@ function About() {
             <Typography>Work Experience</Typography>
           </AccordionSummary>
           <AccordionDetails>
+            <Typography variant="h6" sx={{ fontSize: "1em" }}>
+              Open Source contributions - Current
+            </Typography>
+            <Typography variant="body2" sx={sx_bullets}>
+              - Contributing to freeCodeCamp's new 2022 curriculum: UI/UX tweaks on a Typescript codebase + Cypress tests.
+              <br />
+            </Typography>
             <Typography variant="h6" sx={{ fontSize: "1em" }}>
               Workload Manager & Planning Engineer - Alstom (Chorzów PL) - 3
               years
