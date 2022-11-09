@@ -8,6 +8,8 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
+import { inject } from '@vercel/analytics';
+
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
       },
     },
   });
+
+  inject();
+
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>

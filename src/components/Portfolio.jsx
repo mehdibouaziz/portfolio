@@ -13,7 +13,7 @@ const Portfolio = () => {
     /* put the image in src/img/portfolio */
     /* the first link in the array will be used as the main card action href */
     const projects = {
-        recipeapp: {
+        recipeApp: {
             id: 'recipeApp',
             img: 'recipeapp.png',
             alt: 'recipe app preview',
@@ -22,6 +22,28 @@ const Portfolio = () => {
             links: [
                 ['https://mehdibouaziz.github.io/recipe-app/','github-pages','external','Github Pages'],
                 ['https://github.com/mehdibouaziz/recipe-app','github','github', 'Github repository']
+            ]
+        },
+        houseMarketplace: {
+            id: 'houseMarketplace',
+            img: 'houseMarketplace.png',
+            alt: 'house marketplace preview',
+            name: 'House Marketplace',
+            txt: 'House Marketplace app developed for a Udemy course. Includes user authentication and database with firebase, image hosting with firestore. A logged user can manage its profile and own listings.',
+            links: [
+                ['https://house-marketplace-eight-gamma.vercel.app/','vercel','external','Github Pages'],
+                ['https://github.com/mehdibouaziz/house-marketplace','github','github', 'Github repository']
+            ]
+        },
+        githubFinder: {
+            id: 'githubFinder',
+            img: 'githubFinder.png',
+            alt: 'github finder preview',
+            name: 'Github Finder',
+            txt: 'Github finder app developed for a Udemy course. Uses the Github API to search for users and display their profile, stats, and repos.',
+            links: [
+                ['https://github-finder-jade-xi.vercel.app/','vercel','external','Github Pages'],
+                ['https://github.com/mehdibouaziz/github-finder','github','github', 'Github repository']
             ]
         },
         plantsapp: {
