@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
-import { CardActionArea } from '@mui/material';
+import { Box, CardActionArea } from '@mui/material';
 
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -29,29 +29,24 @@ const PortfolioCard = (props) => {
     );
    
     return (
+        <>
         <Card key={'portfolio-card-' + props.data.id} sx={{
             width: 320,
-            height: 340,
             backgroundColor: '#091522',
             '&:hover': {
-                width: 325,
-                height: 345,
+                
             },
-            transition: 'width 0.5s, height 0.5s'
             }}>
 
         <CardActionArea href={props.data.links[0][0]} target="_blank" rel="noreferrer">
             <CardMedia
                 component="img"
-                height="140"
+                height="160"
                 image={require("../img/portfolio/" + props.data.img)}
                 alt={props.data.alt}
             />
-            <CardContent sx={{
-                height: '110px'
-            }}
-                
-            >
+
+            <CardContent sx={{height: '145px'}}>
                 <Typography gutterBottom variant="h5" component="div">
                     {props.data.name}
                 </Typography>
@@ -70,7 +65,7 @@ const PortfolioCard = (props) => {
                 {linkIcons}
             </CardActions>
         </Card>
-
+        </>
     )
 }
 
