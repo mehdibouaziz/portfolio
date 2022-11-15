@@ -18,9 +18,9 @@ const Portfolio = () => {
             img: 'recipeapp.png',
             alt: 'recipe app preview',
             name: 'Recipe App',
-            txt: 'Recipe catalog created with React for my own use. Includes a search engine, dark/light modes and a JSON generator to add new recipes to the catalog.',
+            txt: 'WIP: Recipe catalog created with React, TailwindCSS, DaisyUI, and Firebase. Fully responsive UI, users can authenticate, add new recipes, and choose their favorite theme. Future features list available on github.',
             links: [
-                ['https://mehdibouaziz.github.io/recipe-app/','github-pages','external','Github Pages'],
+                ['https://am-recipes.vercel.app/','vercel','external','Vercel'],
                 ['https://github.com/mehdibouaziz/recipe-app','github','github', 'Github repository']
             ]
         },
@@ -31,7 +31,7 @@ const Portfolio = () => {
             name: 'House Marketplace',
             txt: 'House Marketplace app developed for a Udemy course. Includes user authentication and database with firebase, image hosting with firestore. A logged user can manage its profile and own listings.',
             links: [
-                ['https://house-marketplace-eight-gamma.vercel.app/','vercel','external','Github Pages'],
+                ['https://house-marketplace-eight-gamma.vercel.app/','vercel','external','Vercel'],
                 ['https://github.com/mehdibouaziz/house-marketplace','github','github', 'Github repository']
             ]
         },
@@ -42,7 +42,7 @@ const Portfolio = () => {
             name: 'Github Finder',
             txt: 'Github finder app developed for a Udemy course. Uses the Github API to search for users and display their profile, stats, and repos.',
             links: [
-                ['https://github-finder-jade-xi.vercel.app/','vercel','external','Github Pages'],
+                ['https://github-finder-jade-xi.vercel.app/','vercel','external','Vercel'],
                 ['https://github.com/mehdibouaziz/github-finder','github','github', 'Github repository']
             ]
         },
