@@ -18,10 +18,32 @@ const Portfolio = () => {
             img: 'recipeapp.png',
             alt: 'recipe app preview',
             name: 'Recipe App',
-            txt: 'WIP: Recipe catalog created with React, TailwindCSS, DaisyUI, and Firebase. Fully responsive UI, users can authenticate, add new recipes, and choose their favorite theme. Future features list available on github.',
+            txt: 'WIP: Recipe catalog created with React, Tailwind, DaisyUI, and Firebase. Fully responsive UI, users can authenticate to add and modify recipes. See GH readme for WIP features.',
             links: [
                 ['https://am-recipes.vercel.app/','vercel','external','Vercel'],
                 ['https://github.com/mehdibouaziz/recipe-app','github','github', 'Github repository']
+            ]
+        },
+        supportDesk: {
+            id: 'supportDesk',
+            img: 'supportDesk.png',
+            alt: 'support desk preview',
+            name: 'Support Desk',
+            txt: 'Fullstack MERN App: Users can register and authenticate to create and manage support tickets. Deployed to render.',
+            links: [
+                ['https://support-desk-epj7.onrender.com/','render','external','Render'],
+                ['https://github.com/mehdibouaziz/support-desk','github','github', 'Github repository']
+            ]
+        },
+        wordle: {
+            id: 'wordle',
+            img: 'wordle.png',
+            alt: 'wordle app preview',
+            name: 'Wordle Clone',
+            txt: 'Worlde clone created using React and Redux. Play with the word of the day or a random word. Can be played in English and French.',
+            links: [
+                ['https://mehdibouaziz.github.io/wordle-clone/','github-pages','external','Github Pages'],
+                ['https://github.com/mehdibouaziz/wordle-clone','github','github', 'Github repository']
             ]
         },
         houseMarketplace: {
@@ -55,17 +77,6 @@ const Portfolio = () => {
             links: [
                 ['https://mehdibouaziz.github.io/plants-app/','github-pages','external','Github Pages'],
                 ['https://github.com/mehdibouaziz/plants-app','github','github', 'Github repository']
-            ]
-        },
-        wordle: {
-            id: 'wordle',
-            img: 'wordle.png',
-            alt: 'wordle app preview',
-            name: 'Wordle Clone',
-            txt: 'Worlde clone created using React and Redux. Play with the word of the day or a random word. Can be played in English and French.',
-            links: [
-                ['https://mehdibouaziz.github.io/wordle-clone/','github-pages','external','Github Pages'],
-                ['https://github.com/mehdibouaziz/wordle-clone','github','github', 'Github repository']
             ]
         },
         pomodoro: {
