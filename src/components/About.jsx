@@ -9,25 +9,21 @@ import SectionTitle from "./SectionTitle";
 import Grid from "@mui/material/Grid";
 
 import {
-  SiReactrouter,
-  SiRedux,
   SiReact,
-  SiMaterialui,
-  SiJquery,
-  SiD3Dotjs,
-  SiBootstrap,
-  SiSass,
   SiNetlify,
   SiGit,
   SiGithub,
   SiUbuntu,
   SiApple,
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTailwindcss,
   SiVercel,
-  SiTypescript
+  SiTypescript,
+  SiNextdotjs,
+  SiMui,
+  SiRedux,
+  SiPhp,
+  SiLaravel,
+
 } from "react-icons/si";
 
 function About() {
@@ -44,7 +40,7 @@ function About() {
     textAlign: "center",
     letterSpacing: "5px",
   };
-  const sx_bullets = { marginBottom: "10px", lineHeight: "1.6em" };
+  const sx_bullets = { marginBottom: "15px", lineHeight: "1.6em" };
 
   const sx_icons = {
     verticalAlign: "baseline",
@@ -95,28 +91,23 @@ function About() {
           }}
         >
           <Typography variant="body1">
-            Hello! I'm Mehdi, a Mechanical Engineer mgr. specialised in Project
-            Management, now learning to become a Front-End Developer.
+            Hello! I'm Mehdi, a Fullstack Software Developer with 3 years of experience. I also have a Master's Degree in Mechanical Engineering and previously worked as a Project Manager.
           </Typography>
           <Typography variant="body1">
-            I am passionate about new technologies, science, design, and
-            puzzles. This is why I love coding and developing websites!
+            I enjoy both frontend and backend equally, and switch between them as needed. 
           </Typography>
           <Typography variant="body1">
-            I completed the Front-End certifications on{" "}
-            <Link href="https://www.freecodecamp.org/learn">freeCodeCamp</Link>{" "}
-            and I am currently working on applying my knowledge to create apps
-            and learning about new libraries.
+            I like to investigate and solve problems, chat about software, ask questions, learn, grow, 
+            brainstorm and cooperate to find better ways to provide the best service to users.
           </Typography>
           <Typography variant="body1">
-            When coding, I focus on delivering a polished user experience thanks
-            to clean code and responsive design.
+            When coding, I focus on delivering a polished user experience with clean, maintainable and scalable code.
           </Typography>
         </Box>
       </Box>
 
       <div style={{ width: "100%", maxWidth: "700px", marginTop: "30px" }}>
-        <Accordion sx={about__accordion}>
+        <Accordion sx={about__accordion} defaultExpanded>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -128,64 +119,40 @@ function About() {
             <Grid container spacing={2}>
               <Grid item xs={3} sx={sx_gridicons}>
                 <Typography variant="body1" sx={sx_accordionIcons}>
-                  <SiHtml5 size="2em" style={sx_icons} />
-                  <SiCss3 size="2em" style={sx_icons} />
-                  <SiJavascript size="2em" style={sx_icons} />
                   <SiTypescript size="2em" style={sx_icons} />
-                </Typography>
-              </Grid>
-              <Grid item xs={9} sx={sx_gridtext}>
-                <Typography variant="body1" sx={sx_accordionTypo}>
-                  ES6 | FreeCodeCamp certificates: Responsive Web Design,
-                  Javascript Algorithms and Data Structures, Front End Libraries
-                  <br /> Fundamentals of TypeScript
-                </Typography>
-              </Grid>
-
-              <Grid item xs={3} sx={sx_gridicons}>
-                <Typography variant="body1" sx={sx_accordionIcons}>
                   <SiReact size="2em" style={sx_icons} />
+                  <SiNextdotjs size="2em" style={sx_icons} />
+                </Typography>
+              </Grid>
+              <Grid item xs={9} sx={sx_gridtext}>
+                <Typography variant="body1" sx={sx_accordionTypo}>
+                  My core frontend proficiency is modern <strong>Typescript</strong> and <strong>React</strong>
+                  <br/>I have commercial experience in both a mix of legacy class based JS/React gradually updgraded to ES6/TS and a more modern <strong>Next.JS</strong> project
+                </Typography>
+              </Grid>
+
+              <Grid item xs={3} sx={sx_gridicons}>
+                <Typography variant="body1" sx={sx_accordionIcons}>
                   <SiRedux size="2em" style={sx_icons} />
-                  <SiReactrouter size="2em" style={sx_icons} />
-                  
-                </Typography>
-              </Grid>
-              <Grid item xs={9} sx={sx_gridtext}>
-                <Typography variant="body1" sx={sx_accordionTypo}>
-                  Modern React w/ Hooks | Redux | ReactRouter | 
-                </Typography>
-              </Grid>
-
-              <Grid item xs={3} sx={sx_gridicons}>
-                <Typography variant="body1" sx={sx_accordionIcons}>
                   <SiTailwindcss size="2em" style={sx_icons} />
-                  <SiMaterialui size="2em" style={sx_icons} />
-                  <SiBootstrap size="2em" style={sx_icons} />
-                  <SiSass size="2em" style={sx_icons} />
-                  <SiJquery size="2em" style={sx_icons} />
-                  <SiD3Dotjs size="2em" style={sx_icons} />
+                  <SiMui size="2em" style={sx_icons} />
                 </Typography>
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Experience with: Tailwind | MaterialUI | Bootstrap | Sass | jQuery | D3.js
+                  I'm proficient with Redux and writing React Hooks, I did extensive work with MUI, and loved tailwind and shadcn.
                 </Typography>
               </Grid>
 
               <Grid item xs={3} sx={sx_gridicons}>
                 <Typography variant="body1" sx={sx_accordionIcons}>
-                  <SiGit size="2em" style={sx_icons} />
-                  <SiGithub size="2em" style={sx_icons} />
-                  <SiUbuntu size="2em" style={sx_icons} />
-                  <SiApple size="2em" style={sx_icons} />
-                  <SiNetlify size="2em" style={sx_icons} />
-                  <SiVercel size="2em" style={sx_icons} />
+                  <SiPhp size="2em" style={sx_icons} />
+                  <SiLaravel size="2em" style={sx_icons} />
                 </Typography>
               </Grid>
               <Grid item xs={9} sx={sx_gridtext}>
                 <Typography variant="body1" sx={sx_accordionTypo}>
-                  Knowledge of git, github, Unix (working on ubuntu 22.04 or
-                  MacOS), deployments on Netlify & Vercel
+                  As for backend, I have extensive experience with php + Laravel. <br/>I maintained and optimized legacy code, expanded features, and wrote integration and unit tests.
                 </Typography>
               </Grid>
             </Grid>
@@ -202,10 +169,16 @@ function About() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="h6" sx={{ fontSize: "1em" }}>
-              Open Source contributions - Current
+              Fullstack Software Engineer - Hemmersbach - Current - 3 years
             </Typography>
-            <Typography variant="body2" sx={sx_bullets}>
-              - Contributing to freeCodeCamp's new 2022 curriculum: UI/UX tweaks on a Typescript codebase + Cypress tests.
+            <Typography variant="body2" sx={{ ...sx_bullets, marginBottom: "40px" }}>
+              - Maintain and expand the features of our in house project management tool used by 1000+ users, with a React frontend and Laravel backend.
+              <br />
+              - Developed from scratch and delivered an app to support HR and Finance in their recruitment process, in Next and Laravel.
+              <br />
+              - Regular L2 support shifts.
+              <br />
+              - I have been praised for my ability to quickly learn and adopt new technologies, my focus on quality, user satisfaction and cooperation with other teams, and my capacity to anticipate, identify and solve problems.
               <br />
             </Typography>
             <Typography variant="h6" sx={{ fontSize: "1em" }}>
@@ -213,14 +186,9 @@ function About() {
               years
             </Typography>
             <Typography variant="body2" sx={sx_bullets}>
-              - Managed the project planning of 5-20 people teams
+              - Managed the project planning of 5-20 people teams and the workload of the department (100+ people).
               <br />
-              - Supervised the workload of the department (100+ people) in
-              coordination with headquarters and collaborating sites
-              <br />
-              - Implemented the department's KPI dashboard and regular
-              performance reviews
-              <br />- Developed, improved, and maintained Excel and VBA tools
+              - Developed, improved, and maintained Excel and VBA tools
               for the team's management
             </Typography>
             <Typography variant="h6" sx={{ fontSize: "1em" }}>
@@ -228,15 +196,13 @@ function About() {
             </Typography>
             <Typography
               variant="body2"
-              sx={{ ...sx_bullets, marginBottom: "20px" }}
+              sx={{ ...sx_bullets, marginBottom: "30px" }}
             >
-              - Established and supervised the schedule of a 15M€ / 18-months
-              long project
+              - Established and supervised the schedule and day-to-day operations of a 15M€ / 18-months
+              long construction project, coordinating 4 subcontractors and up to 50+ people on site.
               <br />
               - Developed an issue tracking system with Excel VBA to monitor the
-              project's completion and generate reports for the client
-              <br />- Supervised the day-to-day progress of the construction
-              teams and 4 subcontractors on site
+              project's completion and generate reports for the client.
             </Typography>
 
             <Typography variant="body2">
@@ -271,7 +237,7 @@ function About() {
               <br />
               - Data Visualisation: D3.js, JSON, AJAX
               <br />- The Odin Project: As a complement to FCC for how to setup
-              and development environment with ubuntu and git
+              a development environment with ubuntu and git
             </Typography>
 
             <Typography variant="h6" sx={{ fontSize: "1em" }}>

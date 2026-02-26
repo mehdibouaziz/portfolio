@@ -30,7 +30,7 @@ function App() {
         <Navbar />
         <Landing 
           name="MEHDI BOUAZIZ"
-          title="FRONT-END DEVELOPER"
+          title="FULLSTACK SOFTWARE DEVELOPER"
           />
         <About />
         <Portfolio />

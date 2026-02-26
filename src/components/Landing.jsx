@@ -40,20 +40,7 @@ const Landing = (props) => {
                     lineHeight: 1
                 }}>
                     {props.title}
-                </Typography>
-
-                <Typography variant="subtitle1" className='landing__name' sx={{
-                    textAlign: 'center',
-                    fontSize: '0.8em',
-                    color: 'white',
-                    fontWeight: 300,
-                    fontVariant: 'small-caps',
-                    letterSpacing: '2px',
-                    lineHeight: 3,
-                }}>
-                    SELF TAUGHT
-                </Typography>
-                
+                </Typography>               
 
             </div>
         </div>

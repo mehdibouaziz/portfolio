@@ -21,8 +21,8 @@ const Footer = () => {
       gap: '20px',
       padding: '6px 0 2px 0',
   }}>
-      <Typography sx={fontstyle}>{'\u00A9'} Copyright 2022</Typography>
-      <Typography sx={fontstyle}>Built with ☕ by Mehdi Bouaziz</Typography>
+      <Typography sx={fontstyle}>{'\u00A9'} Copyright 2026</Typography>
+      <Typography sx={fontstyle}>Built with lots of ☕ by Mehdi Bouaziz</Typography>
       <Tooltip
         title={
             <React.Fragment>

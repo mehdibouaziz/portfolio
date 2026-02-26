@@ -25,7 +25,7 @@ const Links = (props) => {
 
 const PortfolioCard = (props) => {
     let linkIcons = props.data.links.map((links) =>
-        <Links url={links[0]} aria={links[1]} icon={links[2]} title={links[3]}/>
+        <Links key={`${props.data.id}-${links[1]}`} url={links[0]} aria={links[1]} icon={links[2]} title={links[3]}/>
     );
    
     return (

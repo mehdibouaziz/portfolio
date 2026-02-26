@@ -158,28 +158,6 @@ const Contact = () => {
             </Link>
             <Link
               target="_blank"
-              href="https://www.freecodecamp.org/MehdiBouaziz"
-              rel="noreferrer"
-              title="freecodecamp profile"
-              underline="none"
-              color="inherit"
-            >
-              <Button
-                variant="contained"
-                startIcon={<i className="fab fa-free-code-camp"></i>}
-                sx={{
-                  backgroundColor: '#000',
-                  color: 'white',
-                  '&:hover':{
-                    backgroundColor: '#222',
-                  },
-                }}
-              >
-                FreeCodeCamp
-              </Button>
-            </Link>
-            <Link
-              target="_blank"
               href="https://mehdibouaziz.github.io/resume/"
               rel="noreferrer"
               title="my resume"
