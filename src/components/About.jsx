@@ -10,13 +10,7 @@ import Grid from "@mui/material/Grid";
 
 import {
   SiReact,
-  SiNetlify,
-  SiGit,
-  SiGithub,
-  SiUbuntu,
-  SiApple,
   SiTailwindcss,
-  SiVercel,
   SiTypescript,
   SiNextdotjs,
   SiMui,
