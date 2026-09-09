@@ -1,11 +1,8 @@
 import React from 'react'
 import SectionTitle from './SectionTitle';
 import '../styles/portfolio.css';
-
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import PortfolioCard from './PortfolioCard-mui';
-import { Box, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 
 const Portfolio = () => {
