@@ -1,7 +1,6 @@
-export default function SectionTitle({label}: {label: string}){
+export default function SectionTitle({label, lgHidden = false}: {label: string, lgHidden?: boolean}){
     return (
-        // add lg:sr-only to hide on big screens
-        <div className="sticky top-0 bg-background h-14 flex flex-row items-center">
+        <div className={`${lgHidden && 'lg:hidden'} sticky lg:relative top-0 bg-background h-14 flex flex-row items-center pl-4`}>
             <h2 className=" text-sm font-semibold">{label.toUpperCase()}</h2>
         </div>
     )

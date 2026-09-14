@@ -15,7 +15,7 @@ export default function HomePage() {
                     </div>
                     <Socials/>
                 </header>
-                <main id="content" className="w-155 flex flex-col py-24">
+                <main id="content" className="w-160 flex flex-col py-24">
                     <Portfolio/>
                     <Footer/>
                 </main>

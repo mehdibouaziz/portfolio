@@ -2,8 +2,8 @@ import SectionTitle from "@/components/portfolio/section-title";
 
 export default function AboutMe() {
     return (
-        <section id="About_Me" className="flex flex-col gap-4 scroll-mt-24 mb-24" aria-label="ABOUT ME">
-            <SectionTitle label={'About me'}/>
+        <section id="About_Me" className="flex flex-col gap-4 scroll-mt-24 mb-24 pl-4" aria-label="ABOUT ME">
+            <SectionTitle label={'About me'} lgHidden />
             <p>
                 {`
                 Hi! I'm Mehdi, a Fullstack Software Developer with 3 years of experience. 

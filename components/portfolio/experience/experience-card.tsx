@@ -3,7 +3,7 @@ import TechChip from "@/components/portfolio/components/tech-chip";
 
 export default function ExperienceCard({experience}: { experience: experienceI }) {
     return (
-        <div className="flex flex-row">
+        <div className="flex flex-row pl-4">
             <div className="w-2/8 text-sm">
                 {`${experience.startYear} — ${experience.endYear ?? 'CURRENT'}`}
             </div>
