@@ -1,7 +1,7 @@
 import SectionTitle from "@/components/portfolio/section-title";
 import {PROJECTS} from "@/components/portfolio/projects/constants";
 import ProjectCard from "@/components/portfolio/projects/project-card";
-import sdc from './thumbnails/sdc2.png'
+import sdc from './thumbnails/sdc.png'
 import recipeapp from './thumbnails/recipes.png'
 import wordle from './thumbnails/wordle.png'
 
