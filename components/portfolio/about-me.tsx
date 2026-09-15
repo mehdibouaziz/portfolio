@@ -2,24 +2,24 @@ import SectionTitle from "@/components/portfolio/section-title";
 
 export default function AboutMe() {
     return (
-        <section id="About_Me" className="flex flex-col gap-4 scroll-mt-24 mb-24 pl-4" aria-label="ABOUT ME">
+        <section id="About_Me" className="flex flex-col gap-5 scroll-mt-24 mb-24 pl-4" aria-label="ABOUT ME">
             <SectionTitle label={'About me'} lgHidden />
             <p>
-                {`
-                Hi! I'm Mehdi, a Fullstack Software Developer with 3 years of experience. 
-                I also have a Master's Degree in Mechanical Engineering and previously worked as a Project Manager.
-                `}
+                Hi! I&#39;m Mehdi, a Fullstack Software Developer with 3 years of commercial experience. <br/>
+                I also have a Master&#39;s Degree in Mechanical Engineering and previously worked as a Project Manager.
             </p>
             <p>
-                {`
-                I enjoy both frontend and backend equally, and switch between them as needed.
-                I like to investigate and solve problems, chat about software, ask questions, learn, grow, brainstorm and cooperate to find better ways to provide the best service to users.
-                `}
+                I equally enjoy working on pixel-perfect silky smooth frontends, and blazingly fast backend algorithms.
+                I love asking questions, chatting about software, learning, growing, cooperating, helping, teaching, 
+                and challenging when needed, to make sure my team and I provide the best possible service to our users.
             </p>
             <p>
-                {`
-                When coding, I focus on delivering a polished user experience with clean, maintainable and scalable code.
-                `}
+                When coding, I focus on delivering a polished user experience with tested, maintainable and scalable code.
+                I always try to go the extra mile, and love getting lost in the dark corners of the codebase to track and squash bugs.
+            </p>
+            <p>
+                Outside work I play padel, practice aikido, work on DIY projects, take photos,
+                build more and more trains in Factorio, make homebrew beers, and try to grow enough peppers to cook my own hot sauce!
             </p>
         </section>
     )
