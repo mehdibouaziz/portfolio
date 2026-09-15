@@ -11,7 +11,7 @@ export default function Branding() {
                 <span className="text-primary">M</span>ehdi Bouaziz
             </h1>
             <p className="text-xl font-medium">Fullstack Developer</p>
-            <p className="text-base w-65">I build clean and reliable web applications and APIs</p>
+            {/*<p className="text-base w-65">I build clean and reliable web applications and APIs</p>*/}
             <div className="flex flex-row gap-4">
                 <div>React</div>
                 <TechDot/>
