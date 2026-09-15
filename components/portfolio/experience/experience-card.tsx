@@ -14,7 +14,7 @@ export default function ExperienceCard({experience}: { experience: experienceI }
                     </p>
                     <span className="text-primary font-bold">·</span>
                     <p className="font-semibold text-sm">
-                        {`${experience.employer}`}
+                        {`${experience.employer}`}{experience.location && `, ${experience.location}`}
                     </p>
                 </div>
                 <p className="text-sm">

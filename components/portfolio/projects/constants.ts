@@ -29,6 +29,6 @@ export const PROJECTS: Record<string, projectI> = {
         description: "Clone of the popular NY Times game Wordle. Guess a 5-letters word in 6 tries." +
             "The word of the day is picked in sequence from a pool, and a random word mode is available." +
             "Playable both in English and French.",
-        tags: ['React', 'Tailwind', 'DaisyUI', 'Firebase'],
+        tags: ['React', 'Redux'],
     },
 }
