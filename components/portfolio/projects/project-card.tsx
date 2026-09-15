@@ -6,10 +6,10 @@ import {StaticImport} from "next/dist/shared/lib/get-img-props";
 export default function ProjectCard({project, thumbnail}: { project: projectI, thumbnail: string|StaticImport }) {
     function renderCard() {
         return (
-            <div className="flex flex-row px-4 py-5 rounded-lg hover:bg-gray-100">
+            <div className="flex flex-row px-4 py-5 rounded-lg hover:bg-hover">
                 <div className="w-2/8 text-sm flex flex-col items-start">
                     <div className="w-35 h-19.5">
-                        <Image src={thumbnail} alt={`${project.title} thumbnail`} height={78} width={140} className="rounded-sm border-2 border-gray-200"  />
+                        <Image src={thumbnail} alt={`${project.title} thumbnail`} height={78} width={140} className="rounded-sm border-2 border-hover"  />
                     </div>
                 </div>
                 <div className="w-6/8 flex flex-col gap-2">

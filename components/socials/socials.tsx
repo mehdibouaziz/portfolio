@@ -1,4 +1,5 @@
 import {github, linkedin} from "@/components/socials/icons";
+import ThemeToggle from "@/components/theme-provider/theme-toggle";
 
 export default function Socials() {
     return (
@@ -13,8 +14,7 @@ export default function Socials() {
                 target="_blank"
                 rel="noopener noreferrer"
             >{github}</a>
+            <ThemeToggle/>
         </div>
-
-
     );
 }
