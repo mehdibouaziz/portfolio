@@ -4,7 +4,7 @@ import {experienceI, EXPERIENCES} from "@/components/portfolio/experience/consta
 
 export default function Experience() {
     return (
-        <section id="Experience" className="flex flex-col gap-10 scroll-mt-24 mb-24" aria-label="ABOUT ME">
+        <section id="Experience" className="flex flex-col gap-10 scroll-mt-24 mb-24" aria-label="EXPERIENCE">
             <SectionTitle label={'Experience'}/>
             {
                 EXPERIENCES.map((experience: experienceI) => (

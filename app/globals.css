@@ -7,27 +7,34 @@
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
     --color-primary: var(--primary);
+    --color-primary-light: var(--primary-light);
     --color-secondary: var(--secondary);
     --color-inactive: var(--inactive);
     --color-hover: var(--hover);
+    --color-hover-light: var(--hover-light);
 }
 
 :root {
     --background: #ffffff;
     --foreground: #171717;
     --primary: #F86700;
+    --primary-light: #ffd6b5;
     --secondary: #666666;
     --inactive: #999999;
     --hover: #fff8f4;
+    --hover-light: #ffe9d6;
 }
 
 .dark {
     --background: #121212;
     --foreground: #d8d8d8;
-    --primary: #F86700;
+    --primary: #ff9d2e;
+    /*--primary: #1E90FF;*/
+    --primary-light: #ffd6b5;
     --secondary: #9e9e9e;
     --inactive: #999999;
-    --hover: #251912;
+    --hover: #1c1c1c;
+    --hover-light: #424242;
 }
 
 body {
