@@ -3,7 +3,7 @@ import EmphasisLink from "@/components/emphasis-link/emphasis-link";
 
 export default function Footer() {
     return (
-        <div className="mt-12 flex flex-col gap-2.5 text-sm font-light text-secondary">
+        <div className="mt-12 pb-24 flex flex-col gap-2.5 text-sm font-light text-secondary lg:pb-0">
             <p>Designed in <EmphasisLink url={'/figma'}>Figma↗</EmphasisLink>,
                 made in <EmphasisLink>WebStorm</EmphasisLink>.
                 Built with <EmphasisLink>Next.js</EmphasisLink> and <EmphasisLink>Tailwind CSS</EmphasisLink>.

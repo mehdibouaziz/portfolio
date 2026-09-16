@@ -12,7 +12,7 @@ function Lorem() {
 
 export default function Portfolio() {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 lg:pr-4">
             <AboutMe />
             <Experience />
             <Projects />
