@@ -12,6 +12,8 @@
     --color-inactive: var(--inactive);
     --color-hover: var(--hover);
     --color-hover-light: var(--hover-light);
+    --color-chip-font: var(--chip-font);
+    --color-chip-back: var(--chip-back);
 }
 
 :root {
@@ -23,18 +25,22 @@
     --inactive: #999999;
     --hover: #fff8f4;
     --hover-light: #ffe9d6;
+    --chip-font: rgba(248, 103, 0, 0.9);
+    --chip-back: rgba(248, 103, 0, 0.1);
 }
 
 .dark {
-    --background: #121212;
+    --background: #131417;
     --foreground: #d8d8d8;
-    --primary: #ff9d2e;
+    --primary: #82B952;
     /*--primary: #1E90FF;*/
-    --primary-light: #ffd6b5;
+    --primary-light: #9ccf70;
     --secondary: #9e9e9e;
     --inactive: #999999;
     --hover: #1c1c1c;
     --hover-light: #424242;
+    --chip-font: rgb(173 246 106);
+    --chip-back: rgba(162, 229, 104, 0.30);
 }
 
 body {
